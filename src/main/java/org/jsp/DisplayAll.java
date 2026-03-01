@@ -34,7 +34,7 @@ public class DisplayAll extends HttpServlet{
 				long number = rs.getLong("number");
 				String email = rs.getString("email");
 				
-				pr.println("<h1>"+id+"  "+name+"  "+address+"  "+number+" "+email+"</h1> <br>");
+				pr.println("<h3>"+id+"  "+name+"  "+address+"  "+number+" "+email+"</h3>");
 			}
 			
 		} catch (ClassNotFoundException | SQLException e) {
